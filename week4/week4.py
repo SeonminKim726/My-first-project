@@ -12,3 +12,16 @@ while larger_num > smaller_num:
 
 print(f"Number of times halves: {num}")
 
+
+
+#2
+
+word = input("Enter a word: ")
+result = ""
+
+for i in range(1 , len(word) - 1, 2):
+    print(word[i])
+    result += word
+
+
+
