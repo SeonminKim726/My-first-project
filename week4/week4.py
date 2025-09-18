@@ -25,3 +25,11 @@ for i in range(1 , len(word) - 1, 2):
 
 
 
+
+#3
+
+for i in range(38, 1051, 2):
+    print(i)
+
+
+
