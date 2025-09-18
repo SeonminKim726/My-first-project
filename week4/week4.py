@@ -33,3 +33,16 @@ for i in range(38, 1051, 2):
 
 
 
+#4
+
+while True:
+    user_in = input("Enter a letter: ")
+    if user_in == "done":
+        break
+    else:
+        word += user_in
+print(word)
+
+
+
+
