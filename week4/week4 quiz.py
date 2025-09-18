@@ -1,5 +1,5 @@
-#09/18/2025
-
+#09/18/2025 lab시간에 다같이 풂
+'''
 #1
 
 larger_num = int(input("Enter the larger Number: "))
@@ -42,7 +42,14 @@ while True:
     else:
         word += user_in
 print(word)
+'''
 
 
+#5
 
+total = 0
 
+for num in range(51, 518, 2):
+    total += num
+
+print(f"The sum of all odd numbers between 50 and 517 is {total}")
