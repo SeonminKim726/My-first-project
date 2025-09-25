@@ -13,16 +13,14 @@ while larger_num > smaller_num:
 print(f"Number of times halves: {num}")
 
 
-
 #2
 
 word = input("Enter a word: ")
 result = ""
 
-for i in range(1 , len(word) - 1, 2):
-    print(word[i])
-    result += word
-
+for i in range(1 , len(word), 2):
+    result += word[i]
+print(result)
 
 
 
@@ -33,8 +31,9 @@ for i in range(38, 1051, 2):
 
 
 
-#4
 
+#4
+word = ""
 while True:
     user_in = input("Enter a letter: ")
     if user_in == "done":
@@ -84,7 +83,6 @@ while n != 1:
 print(n)
 
 
-
 #8
 
 user_in = int(input("Enter a number: "))
@@ -94,7 +92,7 @@ for n in range (1, user_in + 1):
         print(n, end=" ")
 
 
-
+'''
 
 #9
 
@@ -108,7 +106,7 @@ for _ in range(length):
     print()
 
 
-
+'''
 #10
 max_even = -1  # 짝수가 하나도 없으면 -1
 
