@@ -1,5 +1,5 @@
 '''
-#1
+#function1
 
 def pyramid_volume(base, height):
     volume = (base**2 * height) / 3
@@ -9,7 +9,7 @@ print(f"Theh volume of the pyramid is {pyramid_volume(3,4)}")
 
 
 
-#8
+#function8
 
 def pool_times(grade, time):
     if grade == "k" or 1 <= int(grade) <= 3:        #아니면 k를 grade = 0으로 간주하고 코딩해도됨
@@ -36,7 +36,7 @@ print(f"Pool Time is: {pool_times("k", "Morning")}")
 
 
 
-#11
+#function11
 
 def convert_knuts(knuts):
     #1. For the number of knuts, how many galleons can I buy?
@@ -66,10 +66,9 @@ def convert_knuts(knuts):
 
 print(convert_knuts(544))               #print는 무조건 def 코드 바깥에 있을 것 !!
 
-'''
 
 
-#14
+#function14
 
 from random import randint
 
@@ -92,3 +91,30 @@ def guess_num(user_guess):
 
 user_input = input("Guess the random number (odd or even): ")
 print(f"The guess is: {guess_num(user_input)}")
+
+'''
+
+#string1 (Takes in temerature and checks if it is fever)
+
+def is_fever(temperature):
+
+    # How can we extract the F and C ? Hint: word[-1]
+    unit = temperature[-1]
+
+    # If it is F -> 98.6 is a fever
+    if unit == "F":
+        if temperature[:-1] > 98.6:
+            return True
+        else:
+            return False
+        
+    # If it is C -> 37 is a fever
+    elif unit == "C":
+        if temperature[:-1] > 37:
+            return True
+        else:
+            return False
+        
+# Input and print should be outside of the function
+user_input = input("Enter a temperature in F or C")
+print(f"Is fever ? {is_fever(user_input)}")

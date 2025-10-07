@@ -140,7 +140,7 @@
 
 
 
-'''
+
 def string_to_list_with_vowels(word):
     words = []
     # collect a word
@@ -188,7 +188,7 @@ print(phonebook['matt'])
 
 for person in phonebook:
     print(person, phonebook[person])
-'''
+
 
 
 

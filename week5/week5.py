@@ -1,5 +1,4 @@
 #Write a function that takes an int adds two, multiples by 4, prints the result
-'''
 def my_fctn(number):
     number += 2
     number *= 4
@@ -114,7 +113,6 @@ print(x)
 #수정 완료 !
 
 
-'''
 
 
 #lyst.append( element ) will add the element to the end of the lyst.

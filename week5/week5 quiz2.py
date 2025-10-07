@@ -1,3 +1,5 @@
+# strings
+
 #1
 
 def is_fever(temp):
@@ -135,14 +137,12 @@ def flip_flop(word):
     length = len(word)
     half = length // 2
 
-    if length % 2 == 0:  # 짝수
+    if length % 2 == 0:
         first_half = word[:half]
         second_half = word[half:]
         return second_half + first_half
-    else:  # 홀수
+    else:
         first_half = word[:half]
         middle = word[half]
         second_half = word[half+1:]
         return second_half + middle + first_half
-    
-print(flip_flop("grape"))

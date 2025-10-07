@@ -29,6 +29,11 @@ def count(cards):
             sum -= 1
     
     return sum
-print(count(["a", "a", "k", "q", "q", "j"]))
+#print(count(["a", "a", "k", "q", "q", "j"]))
 
 
+
+#19
+
+def is_acronym(s, words):
+    words[0]

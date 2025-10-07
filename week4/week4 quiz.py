@@ -1,5 +1,5 @@
 #09/18/2025 lab시간에 다같이 풂
-'''
+
 #1
 
 larger_num = int(input("Enter the larger Number: "))
@@ -92,7 +92,7 @@ for n in range (1, user_in + 1):
         print(n, end=" ")
 
 
-'''
+
 
 #9
 
@@ -106,7 +106,7 @@ for _ in range(length):
     print()
 
 
-'''
+
 #10
 max_even = -1  # 짝수가 하나도 없으면 -1
 
@@ -132,4 +132,3 @@ for i in range(1, user_number + 1):
     total += i ** 2
 
 print(total)
-'''
