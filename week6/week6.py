@@ -195,7 +195,7 @@ for person in phonebook:
 
 # Write a function that takes a string as an arguement, and returns a list containing all of the unique words in that string.
 
-my_words = 뭐지 여기 모르겠음
+my_words = "apple banana apple orange banana apple"
 def string_to_dictionary(word):
     string_as_list = word.split()
     word_dictionary = []
@@ -205,6 +205,22 @@ def string_to_dictionary(word):
         else:
             pass
         word_dictionary[word] = 'in word'
+    return word_dictionary
+
+print(string_to_dictionary(my_words))
+
+my_words = "apple banana apple orange banana apple"   # ✅ ① 문자열로 값 추가
+
+def string_to_dictionary(word):
+    string_as_list = word.split()
+    word_dictionary = {}                               # ✅ ② 리스트([]) → 딕셔너리({})로 변경
+
+    for w in string_as_list:                           # ✅ ③ 변수 이름 word → w로 변경 (혼동 방지)
+        if w in word_dictionary:                       # ✅ ④ pass 제거하고 실제 동작 추가
+            word_dictionary[w] += 1
+        else:
+            word_dictionary[w] = 1                     # ✅ ⑤ 단어 처음 나올 때 count 1로 설정
+
     return word_dictionary
 
 print(string_to_dictionary(my_words))

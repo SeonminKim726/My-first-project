@@ -34,3 +34,46 @@ def add_three(x):
 var0 = 7
 var1 = add_three(var0)
 
+
+
+#
+import math
+x = math.sqrt(16)
+print(x)
+
+
+
+
+#mY_fctns1
+
+#my_fctns2
+def print_a_list(lyst):
+    for element in lyst[::]:
+        print(element)
+
+
+import math
+import my_fctns1
+import my_fctns2
+
+x = [1,2,3,4,5]
+
+print
+
+
+
+
+
+
+
+
+#
+import my_fctns1_for_cis121_f25_section1_at_9am as my_stuff
+
+x = my_stuff.add_three(7)
+
+
+def abc():
+    return my_stuff.add_three(5)
+
+print(abc())

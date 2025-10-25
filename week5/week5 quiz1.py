@@ -40,7 +40,7 @@ def leg_counter(chickens, cows, pigs):
 #6
 
 def battery_counter(e_dolls, rc_cars, robo_dogs):
-    return 2 * e_dolls + 4 rc_cars + 6 * robo_dogs
+    return 2 * e_dolls + 4 * rc_cars + 6 * robo_dogs
 
 
 
