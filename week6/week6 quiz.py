@@ -1,3 +1,5 @@
+# 6. Lists
+
 #1
 def skip_letter(word):
     result = []

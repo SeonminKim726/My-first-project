@@ -7,4 +7,4 @@ def design_rug(width, length, pattern):
 	return result
 
 
-print(design_rug(2,6,"@"))
+print(design_rug(2,6,"*"))

@@ -1,4 +1,4 @@
-def convert_knuts(knuts=450):
+def convert_knuts(knuts=900):
 	KNUTS_PER_SICKLE = 29
 	SICKLES_PER_GALLEON = 17
 
@@ -37,4 +37,4 @@ def convert_knuts(knuts=450):
 	
 	return output
 
-print(convert_knuts(32))
+print(convert_knuts())

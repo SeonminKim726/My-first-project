@@ -111,17 +111,32 @@ def add_lists(lyst1, lyst2):
 
     return output
 
-print(add_lists([1, 3, 3, 1], [4, 3, 6, 1]))
-
-
-
 #12
+def largest_even(numbers):
+    largest_even = -1
+    for number in numbers:
+        if number % 2 == 0:
+            if number > largest_even:
+                largest_even = number
+    
+    return largest_even
 
 
 #13
-
+def largest_odd(numbers):
+    largest_odd = -1
+    for number in numbers:
+        if number % 2 == 1:
+            if number > largest_odd:
+                largest_odd = number
+    
+    return largest_odd
 
 #14
+def progress_days(lyst):
+    for i in range(len(lyst)):
+        for j in range(i+1, len(lyst)):
+            if lyst[i] 
 
 
 #15

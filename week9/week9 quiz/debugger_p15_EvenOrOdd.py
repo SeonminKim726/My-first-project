@@ -1,6 +1,6 @@
-from random import randominteger
+from random import randint
 
-def guess(guess="odd"):
+def guess(guess="even"):
 	value = randint(0, 9)
 	
 	if value // 2 == 0:
@@ -12,3 +12,5 @@ def guess(guess="odd"):
 		return "Correct!"
 	else:
 		return "Incorrect!"
+	
+print("\nFinal result: " + guess())
