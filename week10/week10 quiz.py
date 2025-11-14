@@ -206,7 +206,7 @@ student1 = Student("Maria", "Computer Science", 3.9)
 print(student1.introduce())
 print(student1.study_for_exam())
 
-'''
+
 
 #7
 class Vehicle:
@@ -237,7 +237,14 @@ car.print_vehicle_type()
 
 car.set_year(2020)
 car.print_vehicle_type()
+
+
+'''
 #8
+
+
+
+
 #9
 #10
 #11
