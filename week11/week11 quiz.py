@@ -378,6 +378,19 @@ print(f"Total price of all products in the cart: ${total_price:.2f}")
 
 
 #8-(a)
+class LLM:
+    def __init__(self, name, token_limit):
+        self.name = name
+        self.token_limit = token_limit
+
+    def get_token_limit(self):
+        return self.token_limit
+    
+    def set_token_limit(self, _token_limit):
+        self.token_limit = _token_limit
+    
+    def __str__(self):
+        print f"Name: {self.name}, Token limit: {}"
 
 #8-(b)
 

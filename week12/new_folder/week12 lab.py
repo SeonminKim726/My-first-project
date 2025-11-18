@@ -1,5 +1,5 @@
 #2025-11-13
-
+'''
 #5
 class RGBColor:
     # for each parameter (0, 255)
@@ -23,8 +23,6 @@ c3 = c1 + c2
 print("Color 1 = ", c1)
 print("Color 2 = ", c2)
 print("Color 3 = ", c3)
-
-
 
 
 
@@ -53,7 +51,7 @@ print("Color 1 = ", c1)
 print("Color 2 = ", c2)
 print("Color 3 = ", c3)
 
-
+'''
 
 #1
 class Vector:
@@ -71,3 +69,19 @@ vector1 = Vector(3, 4)
 vector2 = Vector(2, 4)
 print("Is vector 1 and 2 same ?")
 print(vector1 == vector2)
+
+
+#2
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __eq__(self, point2):
+        return self.x == point2.x and self.y == point2.y
+    
+    def distance(self, point2):
+        return 
+        
+    def __str__(self):
+        return f""
